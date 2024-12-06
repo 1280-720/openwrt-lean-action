@@ -13,7 +13,7 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-echo 'src-git xrj https://github.com/xiaorouji/openwrt-passwall-packages.git;master' >> feeds.conf.default
+echo 'src-git xrj https://github.com/xiaorouji/openwrt-passwall-packages.git' >> feeds.conf.default
 
 ./scripts/feeds update xrj
 ./scripts/feeds install luci-app-passwall
