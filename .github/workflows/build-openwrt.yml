@@ -25,7 +25,7 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/1280-720/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -36,7 +36,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
-  TZ: Asia/Shanghai
+  TZ: Asia/Ho_Chi_Minh
 
 jobs:
   build:
